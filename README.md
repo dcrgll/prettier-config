@@ -1,1 +1,2 @@
-# prettier-config
+// .prettierrc
+"@daaaan/prettier-config"
