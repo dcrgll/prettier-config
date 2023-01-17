@@ -1,2 +1,5 @@
-// .prettierrc
-"@daaaan/prettier-config"
+
+```bash
+  // .prettierrc
+  "@daaaan/prettier-config"
+```
