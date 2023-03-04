@@ -1,7 +1,7 @@
 {
   "name": "@daaaan/prettier-config",
   "private": false,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Dan's prettier config",
   "main": "index.js",
   "repository": {
@@ -14,8 +14,10 @@
     "url": "https://github.com/dcrgll/prettier-config/issues"
   },
   "homepage": "https://github.com/dcrgll/prettier-config#readme",
-  "peerDependencies": {
-    "prettier": "^2.8.4",
+  "dependencies": {
     "prettier-plugin-tailwindcss": "^0.2.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.3"
   }
 }
