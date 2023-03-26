@@ -1,9 +1,9 @@
 {
   "name": "@daaaan/prettier-config",
   "private": false,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Dan's prettier config",
-  "main": "./config.json",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcrgll/prettier-config.git"
