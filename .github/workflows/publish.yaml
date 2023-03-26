@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: 'Publish 📦'
 on:
   release:
     types: [created]
@@ -6,12 +6,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          registry-url: "https://registry.npmjs.org"
-      - run: yarn install --frozen-lockfile
-      - run: npm publish
+          node-version: '16.x'
+          registry-url: https://registry.npmjs.org
+      - name: Publish
+        run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
