@@ -14,8 +14,11 @@
     "url": "https://github.com/dcrgll/prettier-config/issues"
   },
   "homepage": "https://github.com/dcrgll/prettier-config#readme",
-  "peerDependencies": {
-    "prettier": "^2.8.3",
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "prettier-plugin-tailwindcss": "^0.2.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.3"
   }
 }
